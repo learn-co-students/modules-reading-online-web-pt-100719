@@ -3,12 +3,12 @@ require_relative './class_methods_module.rb'
 #require fancy_dance.rb
 class Kid
    include Dance 
-    extend MetaDancing
+   extend MetaDancing
     attr_accessor :name
 
     def initialize(name) 
         @name = name
     end
-
+    
    
 end
